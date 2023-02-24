@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .message-box {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .love-message {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+  
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+  #next-button {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  }
+  
+  .show {
+    display: flex;
+  }
+  .hidden {
+    display: none;
+  }
+  
